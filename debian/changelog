@@ -1,5 +1,5 @@
-pyroscope (0.1.1) UNRELEASED; urgency=low
+pyroscope (0.1.1) hardy; urgency=low
 
-  * Alpha release.
+  * First release of "pyrocore", containing the "lstor" and "mktor" utilities.
 
- -- pyroscope <pyroscope.project@gmail.com>  Thu, 04 Jun 2009 23:15:57 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Fri, 19 Feb 2010 22:57:27 +0100
