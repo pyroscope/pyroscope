@@ -37,7 +37,7 @@ from setuptools import find_packages
 # Project Metadata
 #
 
-name, version = open("debian/changelog").readline().split(" (", 1)
+name, version = open("../debian/changelog").readline().split(" (", 1)
 version, _ = version.split(")", 1)
 
 project = dict(
@@ -61,7 +61,7 @@ project = dict(
     zip_safe = False,
     data_files = [
         ("EGG-INFO", [
-            "README", "LICENSE", "debian/changelog", 
+            "README", "../LICENSE", "../debian/changelog", 
             "pyroscope/web/config/paste_deploy_config.ini_tmpl",
         ]),
     ],
