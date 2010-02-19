@@ -1,0 +1,19 @@
+WHAT IS IT?
+
+PyroScope is a collection of tools for the BitTorrent protocol and especially the rTorrent client.
+
+It offers the following components:
+ * a modern and versatile rTorrent web interface
+ * rTorrent extensions like a queue manager and statistics
+ * command line tools for automation of common tasks, like metafile creation 
+
+
+WHAT'S HERE?
+
+You find three subprojects here:
+    * pyrocore - Core package and basic command line tools
+    * pyrotorque - Torrent Queue Manager and Statistics Probe
+    * pyroscope - Web UI
+
+Each of this projects is also registered at pypi.python.org.
+
