@@ -23,8 +23,8 @@ from pylons import request, config, tmpl_context as c
 from pylons.controllers import WSGIController
 from pylons.templating import render_mako as render
 
+from pyrocore.util import fmt
 from pyrocore.util.types import Bunch
-from pyroscope.util import fmt
 from pyroscope.engines import rtorrent
 
 
