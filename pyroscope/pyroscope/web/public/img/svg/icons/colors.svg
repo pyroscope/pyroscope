@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="48"
+   id="svg1"
+   version="1.0"
+   width="48"
+   x="0"
+   y="0"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="colors.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <sodipodi:namedview
+     inkscape:window-height="722"
+     inkscape:window-width="642"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="10.291667"
+     inkscape:cx="24"
+     inkscape:cy="24"
+     inkscape:window-x="5"
+     inkscape:window-y="448"
+     inkscape:current-layer="svg1" />
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Lemon SVG theme</dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>icon</rdf:li>
+            <rdf:li />
+            <rdf:li>application</rdf:li>
+            <rdf:li>lemon_theme_icon</rdf:li>
+            <rdf:li>icons</rdf:li>
+            <rdf:li>hash</rdf:li>
+            <rdf:li>computer</rdf:li>
+            <rdf:li>theme</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title>Jose Hevia</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jose Hevia</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Jose Hevia</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 218.75 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="437.5 : 218.75 : 1"
+       inkscape:persp3d-origin="218.75 : 145.83333 : 1"
+       id="perspective27" />
+    <linearGradient
+       id="linearGradient580">
+      <stop
+         id="stop581"
+         offset="0"
+         style="stop-color:#ffff8a;stop-opacity:0.6667;" />
+      <stop
+         id="stop582"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0.3961;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient53">
+      <stop
+         id="stop54"
+         offset="0"
+         style="stop-color:#faff00;stop-opacity:1;" />
+      <stop
+         id="stop55"
+         offset="1"
+         style="stop-color:#026d00;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient48">
+      <stop
+         id="stop49"
+         offset="0"
+         style="stop-color:#000f67;stop-opacity:1;" />
+      <stop
+         id="stop50"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient51"
+       x1="0.80000001"
+       x2="0.52307701"
+       xlink:href="#linearGradient53"
+       y1="0.445315"
+       y2="0.609375" />
+    <linearGradient
+       id="linearGradient52"
+       x1="0.13846301"
+       x2="0.430769"
+       xlink:href="#linearGradient53"
+       y1="0.38281101"
+       y2="0.53906298" />
+    <linearGradient
+       id="linearGradient32"
+       x1="0.101911"
+       x2="0.94267499"
+       xlink:href="#linearGradient48"
+       y1="0.46540901"
+       y2="0.45282999" />
+    <linearGradient
+       id="linearGradient33"
+       x1="-6.8458159e-09"
+       x2="1"
+       xlink:href="#linearGradient48"
+       y1="-4.1814939e-08"
+       y2="1" />
+    <radialGradient
+       cx="0.5"
+       cy="0.5"
+       fx="0.5"
+       fy="0.5"
+       id="radialGradient579"
+       r="0.5"
+       xlink:href="#linearGradient53" />
+  </defs>
+  <path
+     d="M 39.072072,16.182003 C 39.072072,17.06207 38.986212,17.913518 38.821647,18.7435 C 44.059121,20.739751 47.76542,25.762574 47.76542,31.644 C 47.76542,39.292716 41.497624,45.496118 33.755892,45.496118 C 30.006663,45.496118 26.600873,44.036493 24.096617,41.661028 C 21.585205,44.036493 18.179416,45.496118 14.430186,45.496118 C 6.6956103,45.496118 0.42065871,39.292716 0.42065871,31.644 C 0.42065871,25.090003 5.028491,19.602103 11.217582,18.171099 C 11.103103,17.527147 11.053017,16.86173 11.053017,16.182003 C 11.053017,8.533288 17.320813,2.3370406 25.062545,2.3370406 C 32.79712,2.3370406 39.072072,8.533288 39.072072,16.182003 z"
+     id="path637"
+     style="font-size:12px;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+  <ellipse
+     cx="201.16586"
+     cy="167.40315"
+     id="path629"
+     rx="122.38763"
+     ry="120.98088"
+     style="font-size:12px;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     transform="matrix(0.1144803,0,0,0.1144803,-8.5974372,12.480443)"
+     sodipodi:cx="201.16586"
+     sodipodi:cy="167.40315"
+     sodipodi:rx="122.38763"
+     sodipodi:ry="120.98088" />
+  <ellipse
+     cx="201.16586"
+     cy="167.40315"
+     id="path630"
+     rx="122.38763"
+     ry="120.98088"
+     style="font-size:12px;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     transform="matrix(0.1144803,0,0,0.1144803,10.728042,12.480443)"
+     sodipodi:cx="201.16586"
+     sodipodi:cy="167.40315"
+     sodipodi:rx="122.38763"
+     sodipodi:ry="120.98088" />
+  <ellipse
+     cx="201.16586"
+     cy="167.40315"
+     id="path628"
+     rx="122.38763"
+     ry="120.98088"
+     style="font-size:12px;fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     transform="matrix(0.1144803,0,0,0.1144803,2.0315777,-2.9799445)"
+     sodipodi:cx="201.16586"
+     sodipodi:cy="167.40315"
+     sodipodi:rx="122.38763"
+     sodipodi:ry="120.98088" />
+  <ellipse
+     cx="201.16586"
+     cy="167.40315"
+     id="path623"
+     rx="122.38763"
+     ry="120.98088"
+     style="font-size:12px;fill:#ffff00;fill-opacity:0.4643;fill-rule:evenodd;stroke-width:1"
+     transform="matrix(0.1144803,0,0,0.1144803,10.728042,12.480443)"
+     sodipodi:cx="201.16586"
+     sodipodi:cy="167.40315"
+     sodipodi:rx="122.38763"
+     sodipodi:ry="120.98088" />
+  <ellipse
+     cx="201.16586"
+     cy="167.40315"
+     id="path624"
+     rx="122.38763"
+     ry="120.98088"
+     style="font-size:12px;fill:#ff0000;fill-opacity:0.46939996;fill-rule:evenodd;stroke-width:1"
+     transform="matrix(0.1144803,0,0,0.1144803,-8.5974372,12.480443)"
+     sodipodi:cx="201.16586"
+     sodipodi:cy="167.40315"
+     sodipodi:rx="122.38763"
+     sodipodi:ry="120.98088" />
+</svg>

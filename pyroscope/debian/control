@@ -1,0 +1,5 @@
+
+Build-Depends: build-essential, devtools, python-dev
+
+Depends: python2.5, python-virtualenv
+

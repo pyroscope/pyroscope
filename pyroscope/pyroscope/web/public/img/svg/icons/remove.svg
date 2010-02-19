@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   id="svg2046"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\Molumen\Desktop"
+   sodipodi:docname="remove.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2048">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 79.803741 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="159.60748 : 79.803741 : 1"
+       inkscape:persp3d-origin="79.803741 : 53.202494 : 1"
+       id="perspective21" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5190">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop5192" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1"
+         offset="1"
+         id="stop5194" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5197">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop5199" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1"
+         offset="1"
+         id="stop5201" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5190"
+       id="linearGradient2396"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(9.2398458e-2,0,0,9.4830082e-2,300.72714,404.3121)"
+       x1="264.582"
+       y1="296.37491"
+       x2="380.6846"
+       y2="553.74487" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5197"
+       id="linearGradient2399"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-8.9250188e-2,2.391449e-2,-2.4543877e-2,-9.1598667e-2,382.18788,491.8171)"
+       x1="249.48328"
+       y1="262.87494"
+       x2="272.02597"
+       y2="427.54285" />
+    <filter
+       inkscape:collect="always"
+       id="filter3172">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15104632"
+         id="feGaussianBlur3174" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3180">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.6006394"
+         id="feGaussianBlur3182" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="10.291667"
+     inkscape:cx="24.000001"
+     inkscape:cy="23.91158"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="853"
+     inkscape:window-height="722"
+     inkscape:window-x="616"
+     inkscape:window-y="172"
+     showgrid="false" />
+  <metadata
+     id="metadata2051">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>round error warning button</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Lumen Design Studio</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Lumen Design Studio</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>error warning icon</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>error</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>button</rdf:li>
+            <rdf:li>red</rdf:li>
+            <rdf:li>stop</rdf:li>
+            <rdf:li>no</rdf:li>
+            <rdf:li>warning</rdf:li>
+            <rdf:li>negative</rdf:li>
+            <rdf:li>delete</rdf:li>
+            <rdf:li>cancel</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-311.6248,-429.7013)">
+    <path
+       transform="matrix(9.0797397e-2,0,0,9.0797397e-2,300.7472,402.71992)"
+       d="M 634.28571,559.50507 A 250,250 0 1 1 134.28571,559.50507 A 250,250 0 1 1 634.28571,559.50507 z"
+       sodipodi:ry="250"
+       sodipodi:rx="250"
+       sodipodi:cy="559.50507"
+       sodipodi:cx="384.28571"
+       id="path2174"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#cb0000;stroke-width:20.12788199999999961;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter3180)"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path2540"
+       d="M 341.15759,473.71442 C 346.7933,472.20434 351.26911,468.48954 353.94853,463.70625 C 358.30039,453.40393 342.06358,477.52429 328.65252,473.14237 C 332.55117,474.57218 336.88219,474.86001 341.15759,473.71442 z"
+       style="fill:url(#linearGradient2399);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:url(#linearGradient2396);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 335.67396,432.41731 C 324.00493,432.41731 314.53493,442.13651 314.53493,454.1126 C 314.53493,455.73228 314.71466,457.30875 315.04312,458.82742 C 326.64352,436.49725 339.14205,450.55347 355.25665,445.94242 C 352.10974,438.01323 344.5264,432.41731 335.67396,432.41731 z"
+       id="path2197"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="font-size:660.22442626999998083px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:100%;writing-mode:lr-tb;text-anchor:start;opacity:0.73529412000000005;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;filter:url(#filter3172)"
+       d="M 343.98119,468.72807 L 335.70266,460.44953 L 327.34627,468.80594 L 320.52017,461.97984 L 328.87656,453.62344 L 320.59803,445.34491 L 327.24244,438.70048 L 335.52098,446.97903 L 343.90333,438.59667 L 350.72943,445.42277 L 342.34707,453.80513 L 350.62561,462.08366 L 343.98119,468.72807"
+       id="text2705"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="font-size:550.38305664px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       d="M 343.93328,467.5704 L 335.68971,459.32683 L 327.38124,467.63531 L 321.69079,461.94487 L 329.99928,453.6364 L 321.75571,445.39283 L 327.29469,439.85384 L 335.53826,448.09741 L 343.86837,439.7673 L 349.55881,445.45774 L 341.22871,453.78784 L 349.47226,462.03142 L 343.93328,467.5704"
+       id="text2713" />
+  </g>
+</svg>
