@@ -27,8 +27,8 @@ from pylons import request, response, session, tmpl_context as c
 from pylons.controllers.util import abort, redirect_to
 
 from pyroscope.web.lib.base import render, PageController
-from pyroscope.util.algo import product
-from pyroscope.util.types import Bunch
+from pyrocore.util.algo import product
+from pyrocore.util.types import Bunch
 from pyroscope.engines import rtorrent
 
 log = logging.getLogger(__name__)

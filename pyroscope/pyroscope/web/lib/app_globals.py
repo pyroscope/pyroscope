@@ -19,8 +19,8 @@
 
 import logging
 
+from pyrocore.util.types import Bunch
 from pyroscope.engines import rtorrent
-from pyroscope.util.types import Bunch
 
 LOG = logging.getLogger(__name__)
 

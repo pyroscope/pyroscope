@@ -28,7 +28,7 @@ from pylons import request, response, session, tmpl_context as c
 from pylons.controllers.util import abort, redirect_to
 from pylons.decorators import jsonify
 
-from pyroscope.util.types import Bunch
+from pyrocore.util.types import Bunch
 from pyroscope.web.lib.helpers import obfuscate, bibyte
 from pyroscope.web.lib.base import render, PageController
 from pyroscope.web.controllers.json import JsonController

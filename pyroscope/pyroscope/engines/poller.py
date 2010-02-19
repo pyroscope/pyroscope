@@ -21,7 +21,7 @@ import time
 import logging
 from collections import defaultdict
 
-from pyroscope.util.types import Bunch
+from pyrocore.util.types import Bunch
 from pyroscope.engines import rtorrent
 
 LOG = logging.getLogger(__name__)

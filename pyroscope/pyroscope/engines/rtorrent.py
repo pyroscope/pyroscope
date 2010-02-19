@@ -25,9 +25,9 @@ from fnmatch import fnmatch
 from urlparse import urlparse
 from xml.parsers.expat import ExpatError as XmlParseError
 
+from pyrocore.util import xmlrpc2scgi
+from pyrocore.util.types import Bunch
 from pyroscope import config
-from pyroscope.util import xmlrpc2scgi
-from pyroscope.util.types import Bunch
 
 
 # Create alias so clients don't have to import xmlrpclib
