@@ -1,0 +1,11 @@
+WHAT IS IT?
+
+PyroScope is a collection of tools for the BitTorrent protocol and especially the rTorrent client.
+
+This is the queue amanger and statistics package.
+
+
+INSTALLATION
+
+See the http://code.google.com/p/pyroscope/wiki/QuickStartGuide.
+
