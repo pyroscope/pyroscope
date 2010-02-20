@@ -1,4 +1,4 @@
-""" PyroScope - Bencode tests.
+""" PyroCore - Bencode tests.
 
     List of test cases taken from original BitTorrent code by Bram Cohen.
 
@@ -21,7 +21,7 @@
 
 import unittest
 
-from pyroscope.util.bencode import *
+from pyrocore.util.bencode import *
 
 
 class DecoderTest(unittest.TestCase):
