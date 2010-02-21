@@ -226,7 +226,7 @@ def _screenshots():
     gallery_width = 2
     thumb_size = "300x200"
     img_path = "docs/media/screens"
-    svn_base = "http://pyroscope.googlecode.com/svn/trunk/" + img_path
+    svn_base = "http://pyroscope.googlecode.com/svn/trunk/pyroscope/" + img_path
 
     def make_thumb(img_file, thumb_size=thumb_size):
         thumb_file = img_file.dirname() / img_file.namebase + "-thumb.jpg"
