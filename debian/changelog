@@ -1,8 +1,20 @@
-pyroscope (0.1.2) hardy; urgency=low
+pyroscope (0.2.1) hardy; urgency=low
 
-  * ... 
+  * New command line tools "chtor" and "pyroadmin"
+  * New option "--debug" for all comannds
+  * Configuration system finished, new option "--config-dir" for some tools,
+    see http://code.google.com/p/pyroscope/wiki/UserConfiguration
+  * New option "--no-date" for "mktor"
+  * "mktor" now takes a list of announce URLs (not just one), and creates
+    a unique metafile for each tracker in the list
+  * Alias names for announce URLs can be configured and given to "mktor"
+  * "lstor" now masks sensitive data (passkeys) in announce URLs by default
+  * New option "--reveal" for "lstor" to show announce URLs unmasked
+  * Concurrent hashing support using named pipes for "mktor", for details
+    see http://code.google.com/p/pyroscope/wiki/CommandLineTools#mktor
+  * lstor: a missing "creation date" field is now handled correctly
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 20 Feb 2010 00:06:46 +0100
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 07 Mar 2010 23:34:47 +0100
 
 pyroscope (0.1.1) hardy; urgency=low
 
