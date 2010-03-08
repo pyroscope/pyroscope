@@ -14,7 +14,7 @@ pyroscope (0.2.1) hardy; urgency=low
     see http://code.google.com/p/pyroscope/wiki/CommandLineTools#mktor
   * lstor: a missing "creation date" field is now handled correctly
 
- -- pyroscope <pyroscope.project@gmail.com>  Sun, 07 Mar 2010 23:34:47 +0100
+ -- pyroscope <pyroscope.project@gmail.com>  Mon, 08 Mar 2010 01:45:09 +0100
 
 pyroscope (0.1.1) hardy; urgency=low
 
