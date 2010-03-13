@@ -1,9 +1,15 @@
+pyroscope (0.3.2) hardy; urgency=low
+
+  * ...
+
+ -- pyroscope <pyroscope.project@gmail.com>  Sat, 13 Mar 2010 23:27:04 +0100
+
 pyroscope (0.3.1) hardy; urgency=low
 
   * rtcontrol: Added filtering, sorting and output formatting
   * Added logging configuration
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 13 Mar 2010 23:14:29 +0100
+ -- pyroscope <pyroscope.project@gmail.com>  Sat, 13 Mar 2010 23:26:58 +0100
 
 pyroscope (0.2.1) hardy; urgency=low
 
