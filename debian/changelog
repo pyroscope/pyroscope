@@ -1,5 +1,6 @@
 pyroscope (0.3.2) hardy; urgency=low
 
+  * Implemented --start, --close, and --dry-run
   * Fixed encoding issues when printing to a pipe (i.e. not to a tty)
 
  -- pyroscope <pyroscope.project@gmail.com>  Sat, 13 Mar 2010 23:27:04 +0100
