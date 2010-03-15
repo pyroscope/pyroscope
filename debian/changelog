@@ -1,6 +1,7 @@
 pyroscope (0.3.3) hardy; urgency=low
 
   * rtmv: tool added (not yet implemented)
+  * rtcontrol: --nul option added
 
  -- pyroscope <pyroscope.project@gmail.com>  Sun, 14 Mar 2010 22:21:09 +0100
 
