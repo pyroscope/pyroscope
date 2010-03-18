@@ -1,6 +1,7 @@
 pyroscope (0.3.3) hardy; urgency=low
 
   * rtcontrol: --nul option added (for use with "xargs")
+  * lstor: --raw option added
   * "done", "is_ghost" fields added
   * rtmv: tool added (not yet implemented)
 
