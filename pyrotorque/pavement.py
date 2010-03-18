@@ -3,7 +3,7 @@
 
     PyroScope is a collection of tools for the BitTorrent protocol and especially the rTorrent client.
 
-    This is the queue amanger and statistics package.
+    This is the queue manager and statistics package.
 
     Copyright (c) 2010 The PyroScope Project <pyroscope.project@gmail.com>
 
@@ -109,7 +109,7 @@ def bootstrap():
 def docs():
     """ Create documentation.
     """
-    print "No core docs yet!"
+    print "No torque docs yet!"
 
 
 #
