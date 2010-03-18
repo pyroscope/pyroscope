@@ -217,7 +217,7 @@ ${repr(request)}
         <a name="${letter}"><h5>${letter}</h5></a>
         <div>
         % for method, (signatures, help) in sorted(methods):
-            % for signature in signatures:
+            % for signature in ([[signatures]] if isinstance(signatures, basestring) else signatures):
                 <code><strong>${method}</strong>(<em>${', '.join(signature[1:])}</em>)
                 </code>&#8658;<code> <em>${signature[0]}</em>
 <%!
