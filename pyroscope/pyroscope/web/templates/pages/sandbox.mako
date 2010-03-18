@@ -222,7 +222,10 @@ ${repr(request)}
                 </code>&#8658;<code> <em>${signature[0]}</em>
 <%!
     def typed_result(method):
+        import os
         result = getattr(c.proxy.rpc, method)()
+        if isinstance(result, basestring) and result.startswith(os.path.expanduser('~')):
+            result = '~' + result[len(os.path.expanduser('~')):]
         return "%r %r" % (type(result), result)
 %>
                 % if method in c.rt_globals:
