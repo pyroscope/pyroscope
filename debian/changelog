@@ -4,12 +4,12 @@ pyroscope (0.3.3) hardy; urgency=low
   * rtcontrol: --hash-check action added (use with care!)
   * lstor: --raw option added
   * chtor: options --no-skip, --force, --clean, --clean-all,
-    --make-private, --make-public, --clean-rtorrent, and 
+    --clean-rtorrent, --make-private, --make-public, and
     --no-cross-seed added
   * "done", "prio", "is_ghost" fields added
   * rtmv: tool added (not yet implemented)
 
- -- pyroscope <pyroscope.project@gmail.com>  Sun, 14 Mar 2010 22:21:09 +0100
+ -- pyroscope <pyroscope.project@gmail.com>  Sat, 20 Mar 2010 03:27:08 +0100
 
 pyroscope (0.3.2) hardy; urgency=low
 
