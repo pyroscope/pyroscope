@@ -1,6 +1,8 @@
 pyroscope (0.3.4) hardy; urgency=low
 
-  * ...
+  * chtor: --comment, --bump-date, and --no-date added
+  * chtor: dropped --force, and replaced it by --reannounce-all
+  * chtor: takes alias names for announe URLs now
 
  -- pyroscope <pyroscope.project@gmail.com>  Sat, 20 Mar 2010 03:30:48 +0100
 
