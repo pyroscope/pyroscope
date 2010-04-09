@@ -5,6 +5,7 @@ pyroscope (0.3.4) hardy; urgency=low
   * chtor: takes alias names for announe URLs now
   * rtcontrol: added machinery to allow custom field definitions
   * rtcontrol: --help-fields added
+  * rtcontrol: interactive mode added (-i, --yes)
 
  -- pyroscope <pyroscope.project@gmail.com>  Sat, 20 Mar 2010 03:30:48 +0100
 
