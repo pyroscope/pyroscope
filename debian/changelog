@@ -6,9 +6,10 @@ pyroscope (0.3.4) hardy; urgency=low
   * rtcontrol: added machinery to allow custom field definitions
   * rtcontrol: --help-fields added
   * rtcontrol: interactive mode added (-i, --yes)
+  * rtcontrol: added field "directory" (which unlike "path" won't be empty)
   * Added support for XMLRPC TCP connections (scgi_port)
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 20 Mar 2010 03:30:48 +0100
+ -- pyroscope <pyroscope.project@gmail.com>  Thu, 22 Jul 2010 03:26:42 +0200
 
 pyroscope (0.3.3) hardy; urgency=low
 
