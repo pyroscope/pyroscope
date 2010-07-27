@@ -6,6 +6,8 @@ pyroscope (0.3.4) hardy; urgency=low
   * rtcontrol: added machinery to allow custom field definitions
   * rtcontrol: --help-fields added
   * rtcontrol: interactive mode added (-i, --yes)
+  * rtcontrol: --ignore=0|1 added (to set 'ignore commands' flag)
+  * rtcontrol: added field "is_ignored"
   * rtcontrol: added field "directory" (which unlike "path" won't be empty)
   * Added support for XMLRPC TCP connections (scgi_port)
 
