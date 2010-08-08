@@ -21,11 +21,10 @@
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 """
 
-from pylons import config
 from routes import Mapper
 
 
-def make_map():
+def make_map(config):
     """ Create, configure and return the routes Mapper.
     """
     map = Mapper(directory=config["pylons.paths"]["controllers"],

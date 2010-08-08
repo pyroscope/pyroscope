@@ -20,8 +20,8 @@
 import os
 
 from mako.lookup import TemplateLookup
-from pylons import config
 from pylons.error import handle_mako_error
+from pylons.configuration import PylonsConfig
 
 import pyroscope.lib.app_globals as app_globals
 import pyroscope.lib.helpers
@@ -31,6 +31,11 @@ from pyroscope.config.routing import make_map
 def load_environment(global_conf, app_conf):
     """ Configure the Pylons environment via the ``pylons.config`` object.
     """
+    import pylons
+
+    # Create config object
+    config = PylonsConfig()
+
     # Pylons paths
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     paths = dict(root=root,
@@ -41,8 +46,8 @@ def load_environment(global_conf, app_conf):
     # Initialize config with the basic options
     config.init_app(global_conf, app_conf, package='pyroscope', paths=paths)
 
-    config['routes.map'] = make_map()
-    config['pylons.app_globals'] = app_globals.Globals()
+    config['routes.map'] = make_map(config)
+    config['pylons.app_globals'] = app_globals.Globals(config)
     config['pylons.h'] = pyroscope.lib.helpers
 
     # Create the Mako TemplateLookup, with the default auto-escaping
@@ -55,5 +60,12 @@ def load_environment(global_conf, app_conf):
 
     # CONFIGURATION OPTIONS HERE (note: all config options will override
     # any Pylons config options)
-    config['pylons.strict_c'] = True
+    pylons.strict_c = True
+
+    # Optionally, if removing the CacheMiddleware and using the
+    # cache in the new 1.0 style, add under the previous lines:
+    ##pylons.cache._push_object(config['pylons.app_globals'].cache)
+
+    # Return config object
+    return config
 

@@ -75,7 +75,7 @@ project = dict(
 
     # dependencies
     install_requires = [
-        "Pylons==0.9.7",
+        "Pylons==0.10",
     ],
     setup_requires = [
         "PasteScript>=1.7.3",

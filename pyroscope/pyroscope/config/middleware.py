@@ -23,7 +23,6 @@ from paste.registry import RegistryManager
 from paste.urlparser import StaticURLParser
 from paste.translogger import TransLogger
 from paste.deploy.converters import asbool
-from pylons import config
 from pylons.middleware import ErrorHandler, StatusCodeRedirect
 from pylons.wsgiapp import PylonsApp
 from routes.middleware import RoutesMiddleware
@@ -56,10 +55,10 @@ def make_app(global_conf, full_stack=True, static_files=True, access_log=False, 
 
     """
     # Configure the Pylons environment
-    load_environment(global_conf, app_conf)
+    config = load_environment(global_conf, app_conf)
 
     # The Pylons WSGI app
-    app = PylonsApp()
+    app = PylonsApp(config=config)
 
     # Routing/Session/Cache Middleware
     app = RoutesMiddleware(app, config['routes.map'])
@@ -90,4 +89,7 @@ def make_app(global_conf, full_stack=True, static_files=True, access_log=False, 
         static_app = StaticURLParser(config['pylons.paths']['static_files'])
         app = Cascade([static_app, app])
 
+    # Finalize application and return
+    app.config = config
     return app
+

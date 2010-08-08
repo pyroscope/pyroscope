@@ -93,7 +93,7 @@
                 [${c.engine.dht_port}]
             </span>
             <span id="search">
-                <form method="GET" action="${h.url_for(controller='search')}">
+                <form method="GET" action="${url(controller='/search')}">
                   <input type="image" src="/img/png/16/search.png" width="16" height="16" />
                   <input type="text" id="search" name="query" 
                          onfocus="if (this.value == 'Search...') this.value='';" 
