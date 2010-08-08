@@ -51,7 +51,7 @@ project = dict(
             "lstor = pyroscope.scripts.lstor:run",
         ],
         "paste.app_factory": [
-            "main = pyroscope.web.config.middleware:make_app",
+            "main = pyroscope.config.middleware:make_app",
         ],
         "paste.app_install": [
             "main = pylons.util:PylonsInstaller",
@@ -62,13 +62,13 @@ project = dict(
     data_files = [
         ("EGG-INFO", [
             "README", "../LICENSE", "../debian/changelog", 
-            "pyroscope/web/config/paste_deploy_config.ini_tmpl",
+            "pyroscope/config/paste_deploy_config.ini_tmpl",
         ]),
     ],
     paster_plugins = ["PasteScript", "Pylons"],
 
-    #package_data={"pyroscope.web": ["i18n/*/LC_MESSAGES/*.mo"]},
-    #message_extractors={"pyroscope.web": [
+    #package_data={"pyroscope": ["i18n/*/LC_MESSAGES/*.mo"]},
+    #message_extractors={"pyroscope": [
     #        ("**.py", "python", None),
     #        ("templates/**.mako", "mako", {"input_encoding": "utf-8"}),
     #        ("public/**", "ignore", None)]},
@@ -167,7 +167,7 @@ def svg2png():
             .replace("#000000", "#FFFFCC"),
     }
     icon_sizes = (12, 16, 24, 32, 48)
-    img_path = path("pyroscope/web/public/img")
+    img_path = path("pyroscope/public/img")
     svg_path = img_path / "svg"
     build_dir = path("build")
 
@@ -271,9 +271,9 @@ def docs():
 def serve():
     """ Start the web server in DEVELOPMENT mode.
     """
-    sh("paster setup-app development.ini")
+    sh("../bin/paster setup-app development.ini")
     ##sh("paster serve --reload --monitor-restart development.ini")
-    sh("paster serve --reload development.ini")
+    sh("../bin/paster serve --reload development.ini")
 
 
 @task
@@ -281,28 +281,6 @@ def serve():
 def functest():
     """ Functional test of the command line tools.
     """
-
-
-#
-# Project Management
-#
-
-@task
-@consume_args
-def controller(args):
-    links = [
-        ("web/controllers", "%s/controllers" % project["name"]),
-        ("../tests/web", "%s/tests" % project["name"]),
-    ]
-    for link_pair in links:
-        if not os.path.exists(link_pair[1]):
-            #print "%s <- %s" % link_pair
-            os.symlink(*link_pair)
-    try:
-        sh("paster controller %s" % " ".join(args))
-    finally:
-        for _, link in links:
-            os.remove(link)
 
 
 #
