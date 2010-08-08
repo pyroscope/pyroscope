@@ -9,9 +9,10 @@ pyroscope (0.3.4) hardy; urgency=low
   * rtcontrol: --ignore=0|1 added (to set 'ignore commands' flag)
   * rtcontrol: added field "is_ignored"
   * rtcontrol: added field "directory" (which unlike "path" won't be empty)
+  * rtcontrol: --delete added
   * Added support for XMLRPC TCP connections (scgi_port)
 
- -- pyroscope <pyroscope.project@gmail.com>  Thu, 22 Jul 2010 03:26:42 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 08 Aug 2010 22:13:16 +0200
 
 pyroscope (0.3.3) hardy; urgency=low
 
