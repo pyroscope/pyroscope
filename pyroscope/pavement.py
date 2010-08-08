@@ -271,9 +271,9 @@ def docs():
 def serve():
     """ Start the web server in DEVELOPMENT mode.
     """
-    sh("bin/paster setup-app development.ini")
-    ##sh("bin/paster serve --reload --monitor-restart development.ini")
-    sh("bin/paster serve --reload development.ini")
+    sh("paster setup-app development.ini")
+    ##sh("paster serve --reload --monitor-restart development.ini")
+    sh("paster serve --reload development.ini")
 
 
 @task

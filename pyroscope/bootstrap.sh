@@ -1,20 +1,19 @@
 # This script has to be sourced in a shell and is thus NOT executable.
-virtualenv --no-site-packages . || exit 1
-. bin/activate
 
-# tools
-easy_install -U "setuptools==0.6c9"
-easy_install -U "paver>=1.0.1"
-easy_install -U "epydoc>=3.0.1"
-easy_install -U "nose>=0.10.3"
-easy_install -U "coverage==2.80"
-easy_install -U "pylint>=0.18.0"
-easy_install -U "yolk>=0.4.1"
-easy_install -U "PasteScript>=1.7.3"
+# generic bootstrap
+if test ! -f ../bin/activate; then
+    ( cd .. && . ./bootstrap.sh ) || return 1
+fi
+. ../bin/activate || return 1
+
+# base packages
+if python -c "import pyrocore" 2>/dev/null; then
+    echo "Package pyrocore already installed."
+else
+    ( cd ../pyrocore && . ./bootstrap.sh ) || return 1
+fi
 
 # project
-paver develop -U
-paver bootstrap
+paver develop -U || return 1
+paver bootstrap || return 1
 
-export DEBFULLNAME=pyroscope
-export DEBEMAIL=pyroscope.project@gmail.com
