@@ -36,10 +36,11 @@ class Globals(Bunch):
             'app_globals' variable
         """
         self.engine_id = "Unknown Engine ID"
+        self.xmlrpc_bug = True
         try:
             proxy = rtorrent.Proxy()
             self.engine_id = "%s [%s]" % (proxy.id, proxy.version)
             self.xmlrpc_bug = proxy.rpc.system.time_usec() < 0
         except Exception, exc:
             LOG.warning("Cannot determine engine ID (%s)" % exc)
-        
+
