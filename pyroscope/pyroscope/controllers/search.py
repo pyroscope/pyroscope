@@ -32,7 +32,7 @@ class SearchController(BaseController):
 
     def index(self):
         # Quick&dirty search by filtering...
-        query = request.params.get('query')
+        query = request.params.get('query') or ''
         return redirect_to('/view/list/name?filter=%s&filter_mode=AND' % quote_plus(query.encode("utf8")))
         ##return render("pages/search.mako")
 
