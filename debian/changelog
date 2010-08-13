@@ -1,5 +1,7 @@
 pyroscope (0.3.4) hardy; urgency=low
 
+  * Note that some new features need special entries in .rtorrent.rc, so read
+    http://code.google.com/p/pyroscope/wiki/UserConfiguration before updating
   * chtor: --comment, --bump-date, and --no-date added
   * chtor: dropped --force, and replaced it by --reannounce-all
   * chtor: takes alias names for announe URLs now
@@ -11,6 +13,7 @@ pyroscope (0.3.4) hardy; urgency=low
   * rtcontrol: added field "directory" (which unlike "path" won't be empty)
   * rtcontrol: --delete added
   * rtcontrol: --throttle=NAME and "throttle" field added
+  * rtcontrol: added fields "loaded" and "completed"
   * Added support for XMLRPC TCP connections (scgi_port)
 
  -- pyroscope <pyroscope.project@gmail.com>  Sun, 08 Aug 2010 22:13:16 +0200
