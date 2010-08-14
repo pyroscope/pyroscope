@@ -11,6 +11,7 @@ pyroscope (0.3.4) hardy; urgency=low
   * rtcontrol: --ignore=0|1 added (to set 'ignore commands' flag)
   * rtcontrol: added fields "is_ignored" and "is_active"
   * rtcontrol: added field "directory" (which unlike "path" won't be empty)
+  * rtcontrol: --flush added
   * rtcontrol: --delete added
   * rtcontrol: --throttle=NAME and "throttle" field added
   * rtcontrol: added fields "loaded" and "completed"
