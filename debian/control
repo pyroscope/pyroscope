@@ -1,4 +1,4 @@
-# stub file to make dch work - no .deb packing yet
+# stub file to make dch work - no .deb packaging yet
 
 Build-Depends: build-essential, devtools, python-dev
 
