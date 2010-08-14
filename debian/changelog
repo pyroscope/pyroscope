@@ -16,6 +16,7 @@ pyroscope (0.3.4) hardy; urgency=low
   * rtcontrol: --throttle=NAME and "throttle" field added
   * rtcontrol: added fields "loaded" and "completed"
   * Added support for XMLRPC TCP connections (scgi_port)
+  * Added "rtxmlrpc" command
 
  -- pyroscope <pyroscope.project@gmail.com>  Sun, 08 Aug 2010 22:13:16 +0200
 
