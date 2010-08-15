@@ -15,6 +15,7 @@ pyroscope (0.3.4) hardy; urgency=low
   * rtcontrol: --delete added
   * rtcontrol: --throttle=NAME and "throttle" field added
   * rtcontrol: added fields "loaded" and "completed"
+  * rtcontrol: added timestamp filtering, see RtControlExamples wiki page for details
   * Added support for XMLRPC TCP connections (scgi_port)
   * Added "rtxmlrpc" command
 
