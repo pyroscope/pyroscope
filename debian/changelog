@@ -19,7 +19,7 @@ pyroscope (0.3.4) hardy; urgency=low
   * Added support for XMLRPC TCP connections (scgi_port)
   * Added "rtxmlrpc" command
 
- -- pyroscope <pyroscope.project@gmail.com>  Sun, 15 Aug 2010 16:01:41 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Mon, 16 Aug 2010 00:29:51 +0200
 
 pyroscope (0.3.3) hardy; urgency=low
 
