@@ -1,3 +1,9 @@
+pyroscope (0.3.5) hardy; urgency=low
+
+  * ...
+
+ -- pyroscope <pyroscope.project@gmail.com>  Mon, 16 Aug 2010 00:36:13 +0200
+
 pyroscope (0.3.4) hardy; urgency=low
 
   * Note that some new features need special entries in .rtorrent.rc, so read
