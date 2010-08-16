@@ -1,6 +1,7 @@
 pyroscope (0.3.5) hardy; urgency=low
 
-  * ...
+  * rtcontrol: Added "tagged" field
+  * xmlrpc-c is now checked for 64 bit support when connecting
 
  -- pyroscope <pyroscope.project@gmail.com>  Mon, 16 Aug 2010 00:36:13 +0200
 
