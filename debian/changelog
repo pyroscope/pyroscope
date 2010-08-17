@@ -1,9 +1,10 @@
 pyroscope (0.3.5) hardy; urgency=low
 
   * rtcontrol: Added "tagged" field and "--tag" option to set them
+  * rtcontrol: All named custom attributes are available as "custom_NAME"
   * xmlrpc-c is now checked for 64 bit support when connecting
 
- -- pyroscope <pyroscope.project@gmail.com>  Mon, 16 Aug 2010 00:36:13 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Wed, 18 Aug 2010 00:37:40 +0200
 
 pyroscope (0.3.4) hardy; urgency=low
 
