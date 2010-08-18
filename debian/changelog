@@ -1,6 +1,7 @@
 pyroscope (0.3.5) hardy; urgency=low
 
   * rtcontrol: Added "tagged" field and "--tag" option to set them
+  * rtcontrol: Added "views" field that uses the TaggedAsFilter for selection
   * rtcontrol: All named custom attributes are available as "custom_NAME"
   * xmlrpc-c is now checked for 64 bit support when connecting
 
