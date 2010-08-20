@@ -5,10 +5,12 @@ pyroscope (0.3.5) hardy; urgency=low
   * rtcontrol: All named custom attributes are available as "custom_NAME"
   * rtcontrol: Added --column-headers option
   * Configurable output formats added ("rtcontrol -o format_name")
+  * Added "--define KEY=VAL" to override configuration attributes, e.g.
+    to connect to another rtorrent instance via "-D rtorrent_rc=..."
   * Output formatting: system field "now" and format spec ".iso" for dates
   * xmlrpc-c is now checked for 64 bit support when connecting
 
- -- pyroscope <pyroscope.project@gmail.com>  Thu, 19 Aug 2010 20:10:22 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Fri, 20 Aug 2010 08:50:24 +0200
 
 pyroscope (0.3.4) hardy; urgency=low
 
