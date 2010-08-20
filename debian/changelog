@@ -10,7 +10,7 @@ pyroscope (0.3.5) hardy; urgency=low
   * Output formatting: system field "now" and format spec ".iso" for dates
   * xmlrpc-c is now checked for 64 bit support when connecting
 
- -- pyroscope <pyroscope.project@gmail.com>  Fri, 20 Aug 2010 08:50:24 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Fri, 20 Aug 2010 20:56:49 +0200
 
 pyroscope (0.3.4) hardy; urgency=low
 
