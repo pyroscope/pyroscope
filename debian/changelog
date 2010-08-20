@@ -1,8 +1,8 @@
 pyroscope (0.3.6) hardy; urgency=low
 
-  * ...
+  * lstor: Added "-o" option to select output fields
 
- -- pyroscope <pyroscope.project@gmail.com>  Fri, 20 Aug 2010 21:01:47 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sat, 21 Aug 2010 00:03:25 +0200
 
 pyroscope (0.3.5) hardy; urgency=low
 
