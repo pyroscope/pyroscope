@@ -1,8 +1,9 @@
 pyroscope (0.3.6) hardy; urgency=low
 
   * lstor: Added "-o" option to select output fields
+  * rtcontrol: Print XMLRPC statistics when in verbose mode
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 21 Aug 2010 00:03:25 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sat, 21 Aug 2010 02:46:39 +0200
 
 pyroscope (0.3.5) hardy; urgency=low
 

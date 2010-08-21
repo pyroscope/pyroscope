@@ -84,7 +84,7 @@ class Proxy(object):
         return cls.instance
 
     def __init__(self):
-        self.rpc = xmlrpc2scgi.RTorrentXMLRPCClient(config.scgi_url)
+        self.rpc = xmlrpc2scgi.RTorrentProxy(config.scgi_url)
         try:
             self.id = self.rpc.get_name()
         except socket.error, exc:
