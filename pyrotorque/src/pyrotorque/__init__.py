@@ -28,3 +28,12 @@
 #   - put list of hashes we change into "dirty" list
 #   - re-get dirty hashes on read access
 
+# TODO: simple web interface
+#   - wsgiref server
+#   - status page with:
+#       * other general stats (AJAX down/up bandwidth update, etc.)
+#       * recent log lines
+#       * in-memory debug log
+#   - stop / restart demon
+#   - pyrrd data display
+
