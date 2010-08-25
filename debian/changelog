@@ -4,8 +4,10 @@ pyroscope (0.3.6) hardy; urgency=low
   * rtcontrol: Print XMLRPC statistics when in verbose mode
   * rtcontrol: Added field "kind" as a taglist
   * rtxmlrpc: Added --repr option
+  * Tagged filters now allow exact matching by adding a
+    leading '=', e.g. kind==mkv (only "mkv", nothing else)
 
- -- pyroscope <pyroscope.project@gmail.com>  Wed, 25 Aug 2010 21:06:32 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Wed, 25 Aug 2010 22:18:54 +0200
 
 pyroscope (0.3.5) hardy; urgency=low
 
