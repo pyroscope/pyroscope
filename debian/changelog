@@ -2,9 +2,10 @@ pyroscope (0.3.6) hardy; urgency=low
 
   * lstor: Added "-o" option to select output fields
   * rtcontrol: Print XMLRPC statistics when in verbose mode
+  * rtcontrol: Added field "kind" as a taglist
   * rtxmlrpc: Added --repr option
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 21 Aug 2010 18:24:17 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Wed, 25 Aug 2010 21:06:32 +0200
 
 pyroscope (0.3.5) hardy; urgency=low
 
