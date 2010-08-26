@@ -9,6 +9,7 @@ pyroscope (0.3.6) hardy; urgency=low
   * rtxmlrpc: Added --repr option
   * Tagged filters now allow exact matching by adding a leading '=', 
     e.g. kind==mkv (only "mkv", nothing else)
+  * File extension percentages are cached into the field "custom_kind"
   * Added [XMLRPC] section to "config.ini" so that any method name used
     internally can be mapped to ones different from rTorrent 0.8.6
 
