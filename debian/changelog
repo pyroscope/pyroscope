@@ -3,12 +3,14 @@ pyroscope (0.3.6) hardy; urgency=low
   * lstor: Added "-o" option to select output fields
   * rtcontrol: Print XMLRPC statistics when in verbose mode
   * rtcontrol: Added field "kind" as a taglist
-  * rtcontrol: Added field "files" with a glob filter that
-    matches any path in the filelist
+  * rtcontrol: Added field "files" with a glob filter that matches any
+    path in the filelist
   * rtcontrol: Added default output format "files"
   * rtxmlrpc: Added --repr option
-  * Tagged filters now allow exact matching by adding a
-    leading '=', e.g. kind==mkv (only "mkv", nothing else)
+  * Tagged filters now allow exact matching by adding a leading '=', 
+    e.g. kind==mkv (only "mkv", nothing else)
+  * Added [XMLRPC] section to "config.ini" so that any method name used
+    internally can be mapped to ones different from rTorrent 0.8.6
 
  -- pyroscope <pyroscope.project@gmail.com>  Thu, 26 Aug 2010 01:31:01 +0200
 
