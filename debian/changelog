@@ -2,6 +2,7 @@ pyroscope (0.3.6) hardy; urgency=low
 
   * lstor: Added "-o" option to select output fields
   * rtcontrol: Print XMLRPC statistics when in verbose mode
+  * rtcontrol: Added --custom KEY=VALUE option (set custom_KEY field)
   * rtcontrol: Added field "kind" as a taglist
   * rtcontrol: Added field "files" with a glob filter that matches any
     path in the filelist
