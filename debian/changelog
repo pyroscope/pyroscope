@@ -11,6 +11,7 @@ pyroscope (0.3.6) hardy; urgency=low
   * Tagged filters now allow exact matching by adding a leading '=', 
     e.g. kind==mkv (only "mkv", nothing else)
   * File extension percentages are cached into the field "custom_kind"
+  * Support for custom_1 to custom_5 (these are special in rTorrent)
   * Added [XMLRPC] section to "config.ini" so that any method name used
     internally can be mapped to ones different from rTorrent 0.8.6
 
