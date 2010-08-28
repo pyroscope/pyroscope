@@ -9,10 +9,17 @@ pyroscope (0.3.6) hardy; urgency=low
   * rtcontrol: Added field "files" with a glob filter that matches any
     path in the filelist
   * rtcontrol: Added default output format "files"
+  * rtcontrol: --help-fields now also lists format specifiers
   * rtxmlrpc: Added --repr option
   * Tagged filters now allow exact matching by adding a leading '=', 
     e.g. kind==mkv (only "mkv", nothing else)
   * File extension percentages are cached into the field "custom_kind"
+  * New format specifiers:
+      mtime         Modification time of a path.
+      pathbase      Base name of a path.
+      pathdir       Directory containing the given path.
+      pathext       Extension of a path (including the '.').
+      pathname      Base name of a path, without its extension.
   * Support for custom_1 to custom_5 (these are special in rTorrent)
   * Added [XMLRPC] section to "config.ini" so that any method name used
     internally can be mapped to ones different from rTorrent 0.8.6
