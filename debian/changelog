@@ -11,6 +11,8 @@ pyroscope (0.3.6) hardy; urgency=low
   * rtcontrol: Added default output format "files"
   * rtcontrol: --help-fields now also lists format specifiers
   * rtxmlrpc: Added --repr option
+  * Added "OR" to allow multiple alternative top-level condition sets
+    on one command line (note it must actually be uppercase)
   * Tagged filters now allow exact matching by adding a leading '=', 
     e.g. kind==mkv (only "mkv", nothing else)
   * File extension percentages are cached into the field "custom_kind"
