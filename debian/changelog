@@ -5,6 +5,7 @@ pyroscope (0.3.6) hardy; urgency=low
   * rtcontrol: Added --custom KEY=VALUE option (set custom_KEY field)
   * rtcontrol: Added field "started" (time of first start)
   * rtcontrol: Added field "leechtime" (completed-started, if applicable)
+  * rtcontrol: Added field "seedtime" (seedtime after completion)
   * rtcontrol: Added field "kind" as a taglist
   * rtcontrol: Added field "files" with a glob filter that matches any
     path in the filelist
