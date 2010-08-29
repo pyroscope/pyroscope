@@ -3,6 +3,7 @@ pyroscope (0.3.7) hardy; urgency=low
   * rtmv: Added symlinked moving
   * Added field "uploaded" (which is actually referenced in 0.3.6's
     "short" output format, oops)
+  * Added field "fno" (number of files in an item)
   * rtcontrol: renamed option "--view" into "--to-view"
   * rtcontrol: added option "--from-view" (default is still "main")
 
