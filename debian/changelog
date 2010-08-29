@@ -1,6 +1,6 @@
 pyroscope (0.3.7) hardy; urgency=low
 
-  * ...
+  * rtmv: Added symlinked moving
 
  -- pyroscope <pyroscope.project@gmail.com>  Sun, 29 Aug 2010 13:47:17 +0200
 
