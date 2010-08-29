@@ -1,10 +1,12 @@
 pyroscope (0.3.7) hardy; urgency=low
 
   * rtmv: Added symlinked moving
-  * Added field "uploaded" (which is actually referenced in 0.3.6's 
+  * Added field "uploaded" (which is actually referenced in 0.3.6's
     "short" output format, oops)
+  * rtcontrol: renamed option "--view" into "--to-view"
+  * rtcontrol: added option "--from-view" (default is still "main")
 
- -- pyroscope <pyroscope.project@gmail.com>  Sun, 29 Aug 2010 13:47:17 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Mon, 30 Aug 2010 00:12:30 +0200
 
 pyroscope (0.3.6) hardy; urgency=low
 
