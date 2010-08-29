@@ -15,7 +15,7 @@ pyroscope (0.3.6) hardy; urgency=low
   * rtxmlrpc: Added --repr option
   * Added "OR" to allow multiple alternative top-level condition sets
     on one command line (note it must actually be uppercase)
-  * Tagged filters now allow exact matching by adding a leading '=', 
+  * Tagged filters now allow exact matching by adding a leading '=',
     e.g. kind==mkv (only "mkv", nothing else)
   * File extension percentages are cached into the field "custom_kind"
   * New format specifiers:
@@ -28,7 +28,7 @@ pyroscope (0.3.6) hardy; urgency=low
   * Added [XMLRPC] section to "config.ini" so that any method name used
     internally can be mapped to ones different from rTorrent 0.8.6
 
- -- pyroscope <pyroscope.project@gmail.com>  Thu, 26 Aug 2010 01:31:01 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 29 Aug 2010 13:40:20 +0200
 
 pyroscope (0.3.5) hardy; urgency=low
 
