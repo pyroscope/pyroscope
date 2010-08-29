@@ -6,6 +6,8 @@ pyroscope (0.3.7) hardy; urgency=low
   * Added field "fno" (number of files in an item)
   * rtcontrol: renamed option "--view" into "--to-view"
   * rtcontrol: added option "--from-view" (default is still "main")
+  * rtcontrol: exit with return code 44 when the selection is empty
+    (think "404 NOT FOUND", but then exit codes should be < 256)
 
  -- pyroscope <pyroscope.project@gmail.com>  Mon, 30 Aug 2010 00:12:30 +0200
 
