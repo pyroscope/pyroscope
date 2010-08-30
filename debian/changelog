@@ -10,6 +10,7 @@ pyroscope (0.3.7) hardy; urgency=low
     (think "404 NOT FOUND", but then exit codes should be < 256)
   * Added common --cron option that activates logging into the file
     ./log/cron.log in the configuration directory
+  * Moved default output formats to [FORMATS] section of "config.ini"
 
  -- pyroscope <pyroscope.project@gmail.com>  Mon, 30 Aug 2010 00:12:30 +0200
 
