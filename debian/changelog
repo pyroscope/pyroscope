@@ -1,6 +1,7 @@
 pyroscope (0.3.7) hardy; urgency=low
 
   * rtmv: Added symlinked moving
+  * Added grouping of conditions by [ ... ] (note the spaces)
   * Added field "uploaded" (which is actually referenced in 0.3.6's
     "short" output format, oops)
   * Added field "fno" (number of files in an item)
@@ -13,7 +14,7 @@ pyroscope (0.3.7) hardy; urgency=low
   * Moved default output formats to [FORMATS] section of "config.ini"
   * chtor: added --output-directory option
 
- -- pyroscope <pyroscope.project@gmail.com>  Mon, 30 Aug 2010 00:12:30 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Thu, 02 Sep 2010 18:52:52 +0200
 
 pyroscope (0.3.6) hardy; urgency=low
 
