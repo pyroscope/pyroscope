@@ -5,6 +5,8 @@ pyroscope (0.3.7) hardy; urgency=low
   * Added field "uploaded" (which is actually referenced in 0.3.6's
     "short" output format, oops)
   * Added field "fno" (number of files in an item)
+  * Added field "traits" (hierarchical classifier, great for use in
+    completion paths)
   * rtcontrol: renamed option "--view" into "--to-view"
   * rtcontrol: added option "--from-view" (default is still "main")
   * rtcontrol: exit with return code 44 when the selection is empty
