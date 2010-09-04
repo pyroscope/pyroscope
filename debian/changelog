@@ -15,9 +15,11 @@ pyroscope (0.3.7) hardy; urgency=low
     ./log/cron.log in the configuration directory
   * Moved default output formats to [FORMATS] section of "config.ini"
   * mktor: Added --cross-seed option
+  * mktor: Added --fast-resume option to add libtorrent completion
+    information
   * chtor: added --output-directory option
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 04 Sep 2010 15:24:12 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sat, 04 Sep 2010 21:46:24 +0200
 
 pyroscope (0.3.6) hardy; urgency=low
 
