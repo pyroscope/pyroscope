@@ -19,7 +19,7 @@ pyroscope (0.3.7) hardy; urgency=low
     information
   * chtor: Added --output-directory and "--fast-resume PATH" option
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 04 Sep 2010 22:16:35 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 05 Sep 2010 10:00:18 +0200
 
 pyroscope (0.3.6) hardy; urgency=low
 
