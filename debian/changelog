@@ -1,8 +1,11 @@
 pyroscope (0.3.8) hardy; urgency=low
 
-  * ...
+  * rtxmlrpc: Added --xml option
+  * chtor: Added --set and --clean-xseed options
+  * pyroadmin: Added --output option
+  * Some API changes
 
- -- pyroscope <pyroscope.project@gmail.com>  Sun, 05 Sep 2010 10:40:11 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 12 Sep 2010 13:36:36 +0200
 
 pyroscope (0.3.7) hardy; urgency=low
 
