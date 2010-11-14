@@ -1,6 +1,6 @@
 pyroscope (0.3.9) hardy; urgency=low
 
-  * ...
+  * Some internal fixes, mostly better error reporting
 
  -- pyroscope <pyroscope.project@gmail.com>  Sun, 12 Sep 2010 14:04:09 +0200
 

@@ -1,5 +1,6 @@
 # This script has to be sourced in a shell and is thus NOT executable.
 test ! -f ./bin/activate || return 0
+deactivate || true
 virtualenv --no-site-packages . || return 1
 
 export DEBFULLNAME=pyroscope
