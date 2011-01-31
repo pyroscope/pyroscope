@@ -1,6 +1,6 @@
 pyroscope (0.3.10) hardy; urgency=low
 
-  * ...
+  * New "hashcheck" tool to check data against existing torrent file
 
  -- pyroscope <pyroscope.project@gmail.com>  Sun, 14 Nov 2010 10:27:51 +0100
 
