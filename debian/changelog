@@ -5,6 +5,8 @@ pyroscope (0.3.10) hardy; urgency=low
     results in ncurses view (modifies -V and --to-view behaviour)
   * rtcontrol: Prefix "--sort-fields" names with a '-' to get 
     descending order for that field only
+  * lstor: new option --skip-validation to show the contents of
+    broken metafiles (validation errors just result in warnings)
 
  -- pyroscope <pyroscope.project@gmail.com>  Sun, 14 Nov 2010 10:27:51 +0100
 
