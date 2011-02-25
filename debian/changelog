@@ -3,6 +3,7 @@ pyroscope (0.3.10) hardy; urgency=low
   * New "hashcheck" tool to check data against existing torrent file
   * rtcontrol: New option "--tee-view" to ADDITIONALLY show search
     results in ncurses view (modifies -V and --to-view behaviour)
+  * rtcontrol: New options "--purge" and "--cull" for data deletion
   * rtcontrol: Prefix "--sort-fields" names with a '-' to get 
     descending order for that field only
   * lstor: new option --skip-validation to show the contents of
