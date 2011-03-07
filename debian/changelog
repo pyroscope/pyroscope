@@ -1,6 +1,6 @@
 pyroscope (0.3.11) hardy; urgency=low
 
-  * ...
+  * rtcontrol: "-s*" sorts according to the given output format
 
  -- pyroscope <pyroscope.project@gmail.com>  Wed, 02 Mar 2011 01:24:15 +0100
 
