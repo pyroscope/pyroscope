@@ -1,9 +1,10 @@
 pyroscope (0.4.1) hardy; urgency=low
 
-  * rtcontrol: removed short options from actions that are non-interactive
+  * rtcontrol: Removed short options from actions that are non-interactive
     by default, i.e. -S(top) and -C(lose); update your scripts accordingly
   * rtcontrol: "-s*" sorts according to the given output format
   * chtor: "-s field" now deletes the field (assignment without any value)
+  * Bugfix: Conditions nested 2 or more levels didn't work
 
  -- pyroscope <pyroscope.project@gmail.com>  Wed, 02 Mar 2011 01:24:15 +0100
 
