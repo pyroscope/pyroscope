@@ -3,6 +3,9 @@ pyroscope (0.4.1) hardy; urgency=low
   * rtcontrol: Removed short options from actions that are non-interactive
     by default, i.e. -S(top) and -C(lose); update your scripts accordingly
   * rtcontrol: "-s*" sorts according to the given output format
+  * rtcontrol: "--stats" and "--summary" to print a statistical summary; 
+    note that for some fields (e.g. dates) and some kinds of formatting the
+    summary values might not make sense.
   * chtor: "-s field" now deletes the field (assignment without any value)
   * Bugfix: Conditions nested 2 or more levels didn't work
 
