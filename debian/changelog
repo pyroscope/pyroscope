@@ -6,6 +6,8 @@ pyroscope (0.4.1) hardy; urgency=low
   * rtcontrol: "--stats" and "--summary" to print a statistical summary; 
     note that for some fields (e.g. dates) and some kinds of formatting the
     summary values might not make sense.
+  * rtcontrol: Added "--detach", so you can call rtcontrol directly from
+    rtorrent methods and event handlers
   * chtor: "-s field" now deletes the field (assignment without any value)
   * Bugfix: Conditions nested 2 or more levels didn't work
 
