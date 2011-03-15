@@ -9,6 +9,7 @@ pyroscope (0.4.1) hardy; urgency=low
   * rtcontrol: Added "--detach", so you can call rtcontrol directly from
     rtorrent methods and event handlers
   * chtor: "-s field" now deletes the field (assignment without any value)
+  * lstor: Added virtual "__size__" field
   * Bugfix: Conditions nested 2 or more levels didn't work
 
  -- pyroscope <pyroscope.project@gmail.com>  Wed, 02 Mar 2011 01:24:15 +0100
