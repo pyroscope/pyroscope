@@ -8,6 +8,7 @@ pyroscope (0.4.1) hardy; urgency=low
     summary values might not make sense.
   * rtcontrol: Added "--detach", so you can call rtcontrol directly from
     rtorrent methods and event handlers
+  * rtcontrol: Added "field=/regex/" pattern filter
   * chtor: "-s field" now deletes the field (assignment without any value)
   * lstor: Added virtual "__size__" field
   * Bugfix: Conditions nested 2 or more levels didn't work
