@@ -9,6 +9,10 @@ pyroscope (0.4.1) hardy; urgency=low
   * rtcontrol: Added "--detach", so you can call rtcontrol directly from
     rtorrent methods and event handlers
   * rtcontrol: Added "field=/regex/" pattern filter
+  * rtcontrol: Added Tempita output templates, they have to start with 
+    '{{' to be recognized, use '{{#}}' if you don't start with a field; 
+    this allows "if" and "for" loops, for more on the syntax, see
+    http://pythonpaste.org/tempita/
   * chtor: "-s field" now deletes the field (assignment without any value)
   * lstor: Added virtual "__size__" field
   * Bugfix: Conditions nested 2 or more levels didn't work
