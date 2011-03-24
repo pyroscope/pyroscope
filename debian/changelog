@@ -5,7 +5,7 @@ pyroscope (0.4.1) hardy; urgency=low
   * rtcontrol: "-s*" sorts according to the given output format
   * rtcontrol: "--stats" and "--summary" to print a statistical summary; 
     note that for some fields (e.g. dates) and some kinds of formatting the
-    summary values might not make sense.
+    summary values might not make sense
   * rtcontrol: Added "--detach", so you can call rtcontrol directly from
     rtorrent methods and event handlers
   * rtcontrol: Added "field=/regex/" pattern filter
@@ -13,6 +13,11 @@ pyroscope (0.4.1) hardy; urgency=low
     '{{' to be recognized, use '{{#}}' if you don't start with a field; 
     this allows "if" and "for" loops, for more on the syntax, see
     http://pythonpaste.org/tempita/
+  * rtcontrol: Output formats can now be file: URLs that get resolved
+    automatically; paths can be absolute, relative to the configuration
+    directory or start with "~" for paths in the user's home. Note that
+    the file content is stripped at the end (i.e. trailing spaces and
+    newlines are removed).
   * chtor: "-s field" now deletes the field (assignment without any value)
   * lstor: Added virtual "__size__" field
   * Bugfix: Conditions nested 2 or more levels didn't work
