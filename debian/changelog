@@ -1,4 +1,4 @@
-pyroscope (0.4.1) hardy; urgency=low
+pyroscope (0.4.1) jaunty; urgency=low
 
   * rtcontrol: Removed short options from actions that are non-interactive
     by default, i.e. -S(top) and -C(lose); update your scripts accordingly
@@ -19,10 +19,12 @@ pyroscope (0.4.1) hardy; urgency=low
     the file content is stripped at the end (i.e. trailing spaces and
     newlines are removed).
   * chtor: "-s field" now deletes the field (assignment without any value)
+  * chtor: "-no-ssl" forces announce URLs to be 'http'
+  * mktor: the chtor "--set" option now also works with mktor
   * lstor: Added virtual "__size__" field
   * Bugfix: Conditions nested 2 or more levels didn't work
 
- -- pyroscope <pyroscope.project@gmail.com>  Wed, 02 Mar 2011 01:24:15 +0100
+ -- pyroscope <pyroscope.project@gmail.com>  Sat, 02 Apr 2011 16:43:35 +0200
 
 pyroscope (0.3.10) hardy; urgency=low
 
