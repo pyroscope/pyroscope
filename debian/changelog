@@ -13,6 +13,8 @@ pyroscope (0.4.1) jaunty; urgency=low
     '{{' to be recognized, use '{{#}}' if you don't start with a field; 
     this allows "if" and "for" loops, for more on the syntax, see
     http://pythonpaste.org/tempita/
+  * rtcontrol: Added "--output-template" to pass output control to a
+    Tempita template.
   * rtcontrol: Output formats can now be file: URLs that get resolved
     automatically; paths can be absolute, relative to the configuration
     directory or start with "~" for paths in the user's home. Note that
