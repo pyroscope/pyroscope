@@ -1,5 +1,6 @@
 pyroscope (0.4.1) jaunty; urgency=low
 
+  * Added bash completion for rtcontrol and rtxmlrpc
   * rtcontrol: Removed short options from actions that are non-interactive
     by default, i.e. -S(top) and -C(lose); update your scripts accordingly
   * rtcontrol: "-s*" sorts according to the given output format
