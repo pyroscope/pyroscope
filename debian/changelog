@@ -1,4 +1,4 @@
-pyroscope (0.4.1) jaunty; urgency=low
+pyroscope (0.4.1) hardy; urgency=low
 
   * Added bash completion for rtcontrol and rtxmlrpc
   * rtcontrol: Removed short options from actions that are non-interactive
@@ -17,10 +17,10 @@ pyroscope (0.4.1) jaunty; urgency=low
   * rtcontrol: Added "--output-template" to pass output control to a
     Tempita template.
   * rtcontrol: Output formats can now be file: URLs that get resolved
-    automatically; paths can be absolute, relative to the configuration
-    directory or start with "~" for paths in the user's home. Note that
-    the file content is stripped at the end (i.e. trailing spaces and
-    newlines are removed).
+    automatically; paths can be absolute, relative to "templates" in the 
+    configuration directory or start with "~" for paths in the user's 
+    home. Note that the file content is stripped at the end (i.e. trailing
+    spaces and newlines are removed).
   * chtor: "-s field" now deletes the field (assignment without any value)
   * chtor: "-no-ssl" forces announce URLs to be 'http'
   * mktor: the chtor "--set" option now also works with mktor
