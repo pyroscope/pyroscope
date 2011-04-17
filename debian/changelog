@@ -1,3 +1,9 @@
+pyroscope (0.4.2) jaunty; urgency=low
+
+  *  ...
+
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 17 Apr 2011 18:00:43 +0200
+
 pyroscope (0.4.1) hardy; urgency=high
 
   * Added bash completion for rtcontrol and rtxmlrpc, and generic option
