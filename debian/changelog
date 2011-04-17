@@ -1,6 +1,7 @@
-pyroscope (0.4.1) hardy; urgency=low
+pyroscope (0.4.1) hardy; urgency=high
 
-  * Added bash completion for rtcontrol and rtxmlrpc
+  * Added bash completion for rtcontrol and rtxmlrpc, and generic option
+    completion to the rest
   * rtcontrol: Removed short options from actions that are non-interactive
     by default, i.e. -S(top) and -C(lose); update your scripts accordingly
   * rtcontrol: "-s*" sorts according to the given output format
@@ -27,7 +28,7 @@ pyroscope (0.4.1) hardy; urgency=low
   * lstor: Added virtual "__size__" field
   * Bugfix: Conditions nested 2 or more levels didn't work
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 02 Apr 2011 16:43:35 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 17 Apr 2011 17:17:37 +0200
 
 pyroscope (0.3.10) hardy; urgency=low
 
