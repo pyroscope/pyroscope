@@ -1,10 +1,11 @@
 pyroscope (0.4.2) jaunty; urgency=low
 
-  *  ...
+  * rtxmlrpc: Fixed unicode problem when redirecting output
+  * conky/rtprstat: Show free disk space on download volume
 
  -- pyroscope <pyroscope.project@gmail.com>  Sun, 17 Apr 2011 18:00:43 +0200
 
-pyroscope (0.4.1) hardy; urgency=high
+pyroscope (0.4.1) jaunty; urgency=high
 
   * Added bash completion for rtcontrol and rtxmlrpc, and generic option
     completion to the rest
@@ -34,7 +35,7 @@ pyroscope (0.4.1) hardy; urgency=high
   * lstor: Added virtual "__size__" field
   * Bugfix: Conditions nested 2 or more levels didn't work
 
- -- pyroscope <pyroscope.project@gmail.com>  Sun, 17 Apr 2011 17:17:37 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 17 Apr 2011 18:00:36 +0200
 
 pyroscope (0.3.10) hardy; urgency=low
 
