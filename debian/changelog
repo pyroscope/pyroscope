@@ -5,6 +5,8 @@ pyroscope (0.4.2) jaunty; urgency=low
     (rTorrent-PS)
   * Added rtorrent.rc include with standard PyroScope additions
     to make configuration easier
+  * mktor/chtor: --set can now create new namespaces, e.g. you
+    can do "chtor -s rtorrent.custom.foo=bar baz.torrent"
   * rtxmlrpc: Fixed unicode problem when redirecting output
   * conky/rtprstat: Show free disk space on download volume
 
