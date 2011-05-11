@@ -1,5 +1,8 @@
 pyroscope (0.4.2) jaunty; urgency=low
 
+  * [beta] support for rTorrent 0.8.7 and 0.8.8
+  * build script and patches for an extended distribution
+    (rTorrent-PS)
   * rtxmlrpc: Fixed unicode problem when redirecting output
   * conky/rtprstat: Show free disk space on download volume
 
