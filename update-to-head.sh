@@ -12,7 +12,7 @@ test -d pyrobase || { echo "Getting pyrobase..."; git clone "git://github.com/py
 # Update source
 source bin/activate
 svn update
-( cd pyrobase && git pull )
+( cd pyrobase && git pull -q )
 ( cd pyrocore && source bootstrap.sh )
 
 # Register new executables
