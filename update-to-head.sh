@@ -18,3 +18,6 @@ svn update
 # Register new executables
 test ! -d ~/bin || ln -nfs $(grep -l 'entry_point.*pyrocore==' $PWD/bin/*) ~/bin/
 
+# Update config defaults
+pyroadmin --create-config 
+
