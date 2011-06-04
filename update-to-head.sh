@@ -27,4 +27,7 @@ test ! -d ~/bin || ln -nfs $(grep -l 'entry_point.*pyrocore==' $PWD/bin/*) ~/bin
 
 # Update config defaults
 pyroadmin --create-config 
+cp ~/.pyroscope/rtorrent-0.8.6.rc.default ~/.pyroscope/rtorrent-0.8.8.rc.default
+pyrocore/docs/rtorrent-extended/migrate_rtorrent_rc.sh ~/.pyroscope/rtorrent-0.8.8.rc.default >/dev/null
+rm ~/.pyroscope/rtorrent-0.8.8.rc.default{?0.8.6,-????-??-??-??-??-??}
 
