@@ -1,3 +1,9 @@
+pyroscope (0.4.3) jaunty; urgency=low
+
+  * ...
+
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 05 Jun 2011 17:36:07 +0200
+
 pyroscope (0.4.2) jaunty; urgency=low
 
   * Build script and patches for an extended distribution of
