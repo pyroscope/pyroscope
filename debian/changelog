@@ -1,16 +1,19 @@
 pyroscope (0.4.2) jaunty; urgency=low
 
   * Build script and patches for an extended distribution of
-    rTorrent (rTorrent-PS)
+    rTorrent (rTorrent-PS); for details see the wiki at
+    http://code.google.com/p/pyroscope/wiki/RtorrentExtended
   * Added rtorrent.rc include with standard PyroScope additions
     to make configuration easier
   * mktor/chtor: --set can now create new namespaces, e.g. you
     can do "chtor -s rtorrent.custom.foo=bar baz.torrent"
   * rtxmlrpc: Fixed unicode problem when redirecting output
-  * conky/rtprstat: Show free disk space on download dir's volume
+  * conky/rtorstat: Show free disk space on download dir's volume
   * Support for rTorrent 0.8.8 (not intensively tested)
+  * Script to migrate a 0.8.6 syntax .rtorrent.rc to 0.8.8 syntax;
+    see http://code.google.com/p/pyroscope/wiki/RtXmlRpcReference
 
- -- pyroscope <pyroscope.project@gmail.com>  Sat, 04 Jun 2011 15:54:45 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Sun, 05 Jun 2011 17:00:11 +0200
 
 pyroscope (0.4.1) jaunty; urgency=high
 
