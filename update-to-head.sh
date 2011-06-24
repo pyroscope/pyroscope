@@ -26,5 +26,8 @@ svn update
 test ! -d ~/bin || ln -nfs $(grep -l 'entry_point.*pyrocore==' $PWD/bin/*) ~/bin/
 
 # Update config defaults
-pyroadmin --create-config 
+./bin/pyroadmin --create-config 
+
+# Make sure PATH is decent
+( echo $PATH | tr : \\n | grep "^$HOME/bin\$" >/dev/null ) || echo "$HOME/bin is NOT on your PATH, you need to fix that"'!'
 
