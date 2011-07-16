@@ -10,6 +10,14 @@ set -e
 cd $(dirname "$0")
 echo "Updating your installation..."
 
+# People never read docs anyway, so let the machine check...
+cat <<'.' | python
+import sys
+print "Using Python", sys.version
+assert sys.version_info >= (2, 5), "Use Python 2.5 or a higher 2.X!"
+assert sys.version_info < (3,), "Use Python 2.5, 2.6, or 2.7!"
+.
+
 # Ensure virtualenv is there
 test -f bin/activate || install_venv
 
