@@ -8,15 +8,17 @@ install_venv() {
 
 set -e
 cd $(dirname "$0")
-echo "Updating your installation..."
 
 # People never read docs anyway, so let the machine check...
+test $(id -u) -ne 0 || { echo "Do NOT install as root! Read the wiki."; exit 1; }
 cat <<'.' | python
 import sys
 print "Using Python", sys.version
-assert sys.version_info >= (2, 5), "Use Python 2.5 or a higher 2.X!"
-assert sys.version_info < (3,), "Use Python 2.5, 2.6, or 2.7!"
+assert sys.version_info >= (2, 5), "Use Python 2.5 or a higher 2.X! Read the wiki."
+assert sys.version_info < (3,), "Use Python 2.5, 2.6, or 2.7! Read the wiki."
 .
+ 
+echo "Updating your installation..."
 
 # Ensure virtualenv is there
 test -f bin/activate || install_venv
