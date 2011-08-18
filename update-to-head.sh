@@ -1,7 +1,7 @@
 #! /bin/bash
 install_venv() {
     venv='https://github.com/pypa/virtualenv/raw/master/virtualenv.py'
-    python -c "import urllib2; open('venv.py','w').write(urllib2.urlopen('$venv').read())"
+    /usr/bin/python -c "import urllib2; open('venv.py','w').write(urllib2.urlopen('$venv').read())"
     deactivate 2>/dev/null || true
     python venv.py --no-site-packages .
 }
