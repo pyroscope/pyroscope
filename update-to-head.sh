@@ -36,7 +36,7 @@ svn update
 ( cd pyrocore && source bootstrap.sh )
 
 # Register new executables
-test ! -d ~/bin || ln -nfs $(grep -l 'entry_point.*pyrocore==' $PWD/bin/*) ~/bin/
+test ! -d ${BIN_DIR:-~/bin} || ln -nfs $(grep -l 'entry_point.*pyrocore==' $PWD/bin/*) ${BIN_DIR:-~/bin}/
 
 # Update config defaults
 ./bin/pyroadmin --create-config 

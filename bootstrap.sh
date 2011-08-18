@@ -15,13 +15,13 @@ EOF
 . bin/activate || return 1
 
 # tools
-easy_install -U "setuptools>=0.6c11" || return 1
-easy_install -U "paver>=1.0.1" || return 1
-##easy_install -U "nose>=1.0" || return 1
-##easy_install -U "coverage>=3.4" || return 1
-easy_install -U "yolk>=0.4.1" || return 1
-##easy_install -U "PasteScript>=1.7.3" || return 1
+./bin/easy_install -U "setuptools>=0.6c11" || return 1
+./bin/easy_install -U "paver>=1.0.1" || return 1
+##./bin/easy_install -U "nose>=1.0" || return 1
+##./bin/easy_install -U "coverage>=3.4" || return 1
+./bin/easy_install -U "yolk>=0.4.1" || return 1
+##./bin/easy_install -U "PasteScript>=1.7.3" || return 1
 
 # pyrobase
-test ! -d pyrobase || ( cd pyrobase && paver develop -U)
+test ! -d pyrobase || ( cd pyrobase && $PWD/bin/paver develop -U)
 
