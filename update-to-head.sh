@@ -23,6 +23,9 @@ echo "Updating your installation..."
 # Ensure virtualenv is there
 test -f bin/activate || install_venv
 
+# Bootstrap if script was downloaded...
+test -d .svn || svn co https://pyroscope.googlecode.com/svn/trunk/pyrocore .
+
 # Get pyrobase initially, for old or yet incomplete installations
 test -d pyrobase || { echo "Getting pyrobase..."; git clone "git://github.com/pyroscope/pyrobase.git" pyrobase; }
 
