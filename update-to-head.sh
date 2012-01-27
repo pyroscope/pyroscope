@@ -6,6 +6,8 @@ install_venv() {
     /usr/bin/python venv.py --no-site-packages .
 }
 
+git_projects="pyrobase auvyon"
+
 set -e
 cd $(dirname "$0")
 
@@ -26,13 +28,17 @@ test -f bin/activate || install_venv
 # Bootstrap if script was downloaded...
 test -d .svn || svn co https://pyroscope.googlecode.com/svn/trunk .
 
-# Get pyrobase initially, for old or yet incomplete installations
-test -d pyrobase || { echo "Getting pyrobase..."; git clone "git://github.com/pyroscope/pyrobase.git" pyrobase; }
+# Get base packages initially, for old or yet incomplete installations
+for project in $git_projects; do
+    test -d $project || { echo "Getting $project..."; git clone "git://github.com/pyroscope/$project.git" $project; }
+done
 
 # Update source
 source bin/activate
 svn update
-( cd pyrobase && git pull -q )
+for project in $git_projects; do
+    ( cd $project && git pull -q )
+done
 ( cd pyrocore && source bootstrap.sh )
 
 # Register new executables
