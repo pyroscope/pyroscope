@@ -10,9 +10,15 @@ git_projects="pyrobase auvyon"
 
 set -e
 cd $(dirname "$0")
+rtfm="DO read http://code.google.com/p/pyroscope/wiki/InstallFromSource."
+
+# Fix Generation YouTube's reading disability
+for cmd in python svn git; do
+    which $cmd >/dev/null 2>&1 || { echo >&2 "You need a working '$cmd' on your PATH. $rtfm"; exit 1; }
+done
 
 # People never read docs anyway, so let the machine check...
-test $(id -u) -ne 0 || { echo "Do NOT install as root! Read the wiki."; exit 1; }
+test $(id -u) -ne 0 || { echo "Do NOT install as root! $rtfm"; exit 1; }
 cat <<'.' | python
 import sys
 print "Using Python", sys.version
