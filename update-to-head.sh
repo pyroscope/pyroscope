@@ -46,6 +46,9 @@ for project in $git_projects; do
     ( cd $project && git pull -q )
 done
 ( cd pyrocore && source bootstrap.sh )
+for project in $git_projects; do
+    ( cd $project && $PWD/bin/paver develop -U )
+done
 
 # Register new executables
 test ! -d ${BIN_DIR:-~/bin} || ln -nfs $(grep -l 'entry_point.*pyrocore==' $PWD/bin/*) ${BIN_DIR:-~/bin}/
