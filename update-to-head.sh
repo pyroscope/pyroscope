@@ -47,7 +47,7 @@ for project in $git_projects; do
 done
 ( cd pyrocore && source bootstrap.sh )
 for project in $git_projects; do
-    ( cd $project && $PWD/bin/paver develop -U )
+    ( cd $project && ../bin/paver develop -U )
 done
 
 # Register new executables
