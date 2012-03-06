@@ -21,7 +21,7 @@ done
 test $(id -u) -ne 0 || { echo "Do NOT install as root! $rtfm"; exit 1; }
 cat <<'.' | python
 import sys
-print "Using Python", sys.version
+print("Using Python %s" % sys.version)
 assert sys.version_info >= (2, 5), "Use Python 2.5 or a higher 2.X! Read the wiki."
 assert sys.version_info < (3,), "Use Python 2.5, 2.6, or 2.7! Read the wiki."
 .

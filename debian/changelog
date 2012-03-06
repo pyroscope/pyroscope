@@ -1,8 +1,10 @@
 pyroscope (0.4.3) jaunty; urgency=low
 
-  * ...
+  * rtcontrol: added '--shell' option
+  * chtor: added '--regex' option
+  * chtor: replacing {} with the torrent name in --hashed path
 
- -- pyroscope <pyroscope.project@gmail.com>  Sun, 05 Jun 2011 17:36:07 +0200
+ -- pyroscope <pyroscope.project@gmail.com>  Tue, 14 Feb 2012 20:04:51 +0100
 
 pyroscope (0.4.2) jaunty; urgency=low
 
