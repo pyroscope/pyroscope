@@ -22,6 +22,10 @@ EOF
 ./bin/easy_install -U "yolk>=0.4.1" || return 1
 ##./bin/easy_install -U "PasteScript>=1.7.3" || return 1
 
+# Harmless options (just install them, but ignore errors)
+./bin/easy_install -U "Tempita>=0.5.1" || :
+./bin/easy_install -U "APScheduler>=2.0.2" || :
+
 # pyrobase
 test ! -d pyrobase || ( cd pyrobase && $PWD/bin/paver develop -U)
 
