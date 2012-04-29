@@ -1,25 +1,28 @@
 #! /bin/bash
+PYTHON=${1:-/usr/bin/python}
+
 install_venv() {
     venv='https://github.com/pypa/virtualenv/raw/master/virtualenv.py'
-    /usr/bin/python -c "import urllib2; open('venv.py','w').write(urllib2.urlopen('$venv').read())"
+    $PYTHON -c "import urllib2; open('virtualenv.py','w').write(urllib2.urlopen('$venv').read())"
     deactivate 2>/dev/null || true
-    /usr/bin/python venv.py --no-site-packages .
+    $PYTHON virtualenv.py .
 }
 
 git_projects="pyrobase auvyon"
 
 set -e
 cd $(dirname "$0")
+deactivate 2>/dev/null || true
 rtfm="DO read http://code.google.com/p/pyroscope/wiki/InstallFromSource."
 
 # Fix Generation YouTube's reading disability
-for cmd in python svn git; do
+for cmd in $PYTHON svn git; do
     which $cmd >/dev/null 2>&1 || { echo >&2 "You need a working '$cmd' on your PATH. $rtfm"; exit 1; }
 done
 
 # People never read docs anyway, so let the machine check...
 test $(id -u) -ne 0 || { echo "Do NOT install as root! $rtfm"; exit 1; }
-cat <<'.' | python
+cat <<'.' | $PYTHON
 import sys
 print("Using Python %s" % sys.version)
 assert sys.version_info >= (2, 5), "Use Python 2.5 or a higher 2.X! Read the wiki."
@@ -32,7 +35,7 @@ echo "Updating your installation..."
 test -f bin/activate || install_venv
 
 # Bootstrap if script was downloaded...
-test -d .svn || svn co https://pyroscope.googlecode.com/svn/trunk .
+test -d .svn || svn co http://pyroscope.googlecode.com/svn/trunk .
 
 # Get base packages initially, for old or yet incomplete installations
 for project in $git_projects; do
