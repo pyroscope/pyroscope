@@ -22,7 +22,8 @@ done
 
 # People never read docs anyway, so let the machine check...
 test $(id -u) -ne 0 || { echo "Do NOT install as root! $rtfm"; exit 1; }
-cat <<'.' | $PYTHON
+test -f ./bin/activate && vpy=$PWD/bin/python || vpy=$PYTHON
+cat <<'.' | $vpy
 import sys
 print("Using Python %s" % sys.version)
 assert sys.version_info >= (2, 5), "Use Python 2.5 or a higher 2.X! Read the wiki."
