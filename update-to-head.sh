@@ -45,6 +45,7 @@ done
 
 # Update source
 source bin/activate
+easy_install -q pip
 svn update
 for project in $git_projects; do
     ( cd $project && git pull -q )
