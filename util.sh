@@ -38,7 +38,7 @@ install_venv() {
     deactivate 2>/dev/null || true
     $PYTHON "$PROJECT_ROOT"/virtualenv.py "$@" "$PROJECT_ROOT"
     test -f "$PROJECT_ROOT"/bin/activate || abend "creating venv in $PROJECT_ROOT failed"
-    rm "$PROJECT_ROOT"/virtualenv.py
+    rm "$PROJECT_ROOT"/virtualenv.py*
 
     ensure_pip
 }
