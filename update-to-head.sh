@@ -46,6 +46,7 @@ done
 # Update source
 source bin/activate
 easy_install -q pip
+test -x ./bin/pip || ln -s $(cd ./bin && ls -1 pip-* | tail -n1) ./bin/pip
 svn update
 for project in $git_projects; do
     ( cd $project && git pull -q )
