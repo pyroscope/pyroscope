@@ -34,10 +34,11 @@ ensure_pip() {
 
 install_venv() {
     venv='https://github.com/pypa/virtualenv/raw/master/virtualenv.py'
-    $PYTHON -c "import urllib2; open('$PROJECT_ROOT/bin/virtualenv.py','w').write(urllib2.urlopen('$venv').read())"
+    $PYTHON -c "import urllib2; open('$PROJECT_ROOT/virtualenv.py','w').write(urllib2.urlopen('$venv').read())"
     deactivate 2>/dev/null || true
-    $PYTHON $$PROJECT_ROOT/bin/virtualenv.py "$@" "$PROJECT_ROOT"
+    $PYTHON "$PROJECT_ROOT"/virtualenv.py "$@" "$PROJECT_ROOT"
     test -f "$PROJECT_ROOT"/bin/activate || abend "creating venv in $PROJECT_ROOT failed"
+    rm "$PROJECT_ROOT"/virtualenv.py
 
     ensure_pip
 }
