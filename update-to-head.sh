@@ -1,13 +1,5 @@
 #! /bin/bash
 PYTHON=${1:-/usr/bin/python}
-
-install_venv() {
-    venv='https://github.com/pypa/virtualenv/raw/master/virtualenv.py'
-    $PYTHON -c "import urllib2; open('virtualenv.py','w').write(urllib2.urlopen('$venv').read())"
-    deactivate 2>/dev/null || true
-    $PYTHON virtualenv.py .
-}
-
 git_projects="pyrobase auvyon"
 
 set -e
@@ -32,11 +24,12 @@ assert sys.version_info < (3,), "Use Python 2.5, 2.6, or 2.7! Read the wiki."
  
 echo "Updating your installation..."
 
+# Bootstrap if script was downloaded...
+test -d .svn && svn update || svn co http://pyroscope.googlecode.com/svn/trunk .
+. ./util.sh # load funcs
+
 # Ensure virtualenv is there
 test -f bin/activate || install_venv
-
-# Bootstrap if script was downloaded...
-test -d .svn || svn co http://pyroscope.googlecode.com/svn/trunk .
 
 # Get base packages initially, for old or yet incomplete installations
 for project in $git_projects; do
@@ -45,13 +38,10 @@ done
 
 # Update source
 source bin/activate
-easy_install -q pip
-test -x ./bin/pip || ln -s $(cd ./bin && ls -1 pip-* | tail -n1) ./bin/pip
-svn update
 for project in $git_projects; do
     ( cd $project && git pull -q )
 done
-( cd pyrocore && source bootstrap.sh )
+( cd pyrocore && source bootstrap.sh ) # we did the 'svn update' above
 for project in $git_projects; do
     ( cd $project && ../bin/paver -q develop -U )
 done
