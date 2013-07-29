@@ -37,12 +37,16 @@ ensure_pip() {
 }
 
 install_venv() {
-    venv='https://github.com/pypa/virtualenv/raw/master/virtualenv.py'
-    $PYTHON -c "import urllib2; open('$PROJECT_ROOT/virtualenv.py','w').write(urllib2.urlopen('$venv').read())"
+    venv_version=1.9.1
+    venv_url="https://pypi.python.org/packages/source/v/virtualenv/virtualenv-$venv_version.tar.gz"
+    mkdir -p "$PROJECT_ROOT/lib"
+    test -f "$PROJECT_ROOT/lib/virtualenv.tgz" || \
+        $PYTHON -c "import urllib2; open('$PROJECT_ROOT/lib/virtualenv.tgz','w').write(urllib2.urlopen('$venv_url').read())"
+    test -d "$PROJECT_ROOT/lib/virtualenv" || \
+        ( cd lib && tar xzf virtualenv.tgz && mv virtualenv-$venv_version virtualenv )
     deactivate 2>/dev/null || true
-    $PYTHON "$PROJECT_ROOT"/virtualenv.py "$@" "$PROJECT_ROOT"
+    $PYTHON "$PROJECT_ROOT"/lib/virtualenv/virtualenv.py "$@" "$PROJECT_ROOT"
     test -f "$PROJECT_ROOT"/bin/activate || abend "creating venv in $PROJECT_ROOT failed"
-    rm "$PROJECT_ROOT"/virtualenv.py*
 
     ensure_pip
 }

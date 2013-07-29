@@ -29,7 +29,7 @@ test -d .svn && svn update || svn co http://pyroscope.googlecode.com/svn/trunk .
 . ./util.sh # load funcs
 
 # Ensure virtualenv is there
-test -f bin/activate || install_venv
+test -f bin/activate || install_venv --use-distribute --never-download
 
 # Get base packages initially, for old or yet incomplete installations
 for project in $git_projects; do
