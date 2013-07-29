@@ -1,10 +1,15 @@
 #! /bin/bash
-PYTHON=${1:-/usr/bin/python}
 git_projects="pyrobase auvyon"
+
+# Find most suitable Python
+deactivate 2>/dev/null
+PYTHON="$1"
+test -z "$PYTHON" -a -x "/usr/bin/python2" && PYTHON="/usr/bin/python2"
+test -z "$PYTHON" -a -x "/usr/bin/python" && PYTHON="/usr/bin/python"
+test -z "$PYTHON" && PYTHON="python"
 
 set -e
 cd $(dirname "$0")
-deactivate 2>/dev/null || true
 rtfm="DO read http://code.google.com/p/pyroscope/wiki/InstallFromSource."
 
 # Fix Generation YouTube's reading disability
