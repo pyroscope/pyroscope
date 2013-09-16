@@ -2,6 +2,7 @@
 git_projects="pyrobase auvyon"
 
 # Find most suitable Python
+echo "~~~ On errors, paste EVERYTHING below ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 deactivate 2>/dev/null
 PYTHON="$1"
 test -z "$PYTHON" -a -x "/usr/bin/python2" && PYTHON="/usr/bin/python2"
@@ -34,7 +35,7 @@ test -d .svn && svn update || svn co http://pyroscope.googlecode.com/svn/trunk .
 . ./util.sh # load funcs
 
 # Ensure virtualenv is there
-test -f bin/activate || install_venv --use-distribute --never-download
+test -f bin/activate || install_venv --never-download
 
 # Get base packages initially, for old or yet incomplete installations
 for project in $git_projects; do
