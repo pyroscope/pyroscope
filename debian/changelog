@@ -1,10 +1,13 @@
 pyroscope (0.4.3) jaunty; urgency=low
 
   * rtcontrol: added '--shell' option
+  * rtcontrol: added '--prio' action
   * chtor: added '--regex' option
   * chtor: replacing {} with the torrent name in --hashed path
+  * Fix for rT-PS build script failing the xmlrpc-c configure tests
+    on current Wheezy et al, courtesy of mittens @ freenode.net
 
- -- pyroscope <pyroscope.project@gmail.com>  Tue, 14 Feb 2012 20:04:51 +0100
+ -- pyroscope <pyroscope.project@gmail.com>  Fri, 11 Oct 2013 22:20:24 +0200
 
 pyroscope (0.4.2) jaunty; urgency=low
 
