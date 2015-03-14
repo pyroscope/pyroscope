@@ -1,0 +1,3 @@
+FlexGet is a multi-purpose automation tool for downloadable content including torrents, and it's able to handle different kinds of sources like RSS feeds, HTML pages, and CSV files. There are numerous plugins that allow utilizing FlexGet in interesting ways, and more are being added continuously.
+
+See the [FlexGet homepage](http://flexget.com/) for more, and the FlexGetPlugins page on how to connect FlexGet and rTorrent via PyroScope.

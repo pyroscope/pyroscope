@@ -1,0 +1,1 @@
+The help pages only support SimpleMarkup.

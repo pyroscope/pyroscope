@@ -1,0 +1,1 @@
+The laboratory or sandbox view shows some technical information that helps during the development of PyroScope, of which the _ohloh.net Statistics_ are probably the only one of interest to a non-developer.
