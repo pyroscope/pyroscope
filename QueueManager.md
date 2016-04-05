@@ -12,7 +12,7 @@ The queue manager, and other background jobs you can activate, are controlled by
 
 Before you start configuring the daemon, you have to InstallFromSource the system (if you didn't do that already), **and** some additional Python dependencies it needs to do its work, also depending on what jobs you activate in your configuration. You need at least `APScheduler>=2.0.2`, and the following is how to install the _full_ set of dependencies:
 ```
-~/lib/pyroscope/bin/pip install -r ~/lib/pyroscope/pyrocore/requirements-torque.txt
+~/lib/pyroscope/bin/pip install -r ~/lib/pyroscope/requirements-torque.txt
 ```
 
 The queue manager daemon needs additional settings, but there are defaults in place, so the detailed explanation in this section can be skipped, if you are OK with these. Go directly to the [configuration](#Configuration.md) in that case.
