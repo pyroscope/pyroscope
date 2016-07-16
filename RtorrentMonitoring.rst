@@ -54,7 +54,9 @@ A few additional Python libraries and external CSS/Javascript resources
 need to be installed, which are not part of the core distribution.
 
 1. Install current code and dependencies:
-   ``~/lib/pyroscope/update-to-head.sh ~/lib/pyroscope/bin/pip install -r ~/lib/pyroscope/pyrocore/requirements-torque.txt``
+
+    ~/lib/pyroscope/update-to-head.sh
+    ~/lib/pyroscope/bin/pip install -r ~/lib/pyroscope/requirements-torque.txt
 
 2. Activate the web server option by adding this to your
    ``~/.pyroscope/torque.ini``: ``httpd.active = True``
